@@ -1,0 +1,92 @@
+# homework
+import 'dart:io';
+
+void main (){
+
+print('Введите число :');
+var a =stdin.readLineSync()!;
+print(a.isNotEmpty); 
+
+}
+
+//задача 2
+// void main(){
+
+  
+ 
+  // print("Введите первое число:");
+  // double number1 = 20;
+
+  // print("Введите второе число:");
+  // double number2 = 25;
+
+  // double sum = number1 + number2;
+  // print("Сумма: $sum");
+
+  
+  // double sum1 = number1 - number2;
+  // print(sum1);
+
+  
+  // double sum2 = number1 * number2;
+  // print(sum2);
+
+
+  // double sum3 = number1 / number2;
+  // print(sum3); 
+  
+  // }
+
+
+//задача 3
+
+// void main(){
+
+
+
+//   for (int i = 1; i < 10; i++) {
+//     print('5 * ${i } = ${i * 5}');
+//   }
+  
+// }
+
+//задача 4
+
+// import 'dart:io';
+// void main() {
+//   double celsius = double.parse(stdin.readLineSync()!);
+
+//   print('Введите температуру в градусах Цельсия: ');
+  
+
+
+//   double Farengeit = (celsius * 9 / 5) + 32;
+
+  
+//   print('Температура в градусах Фаренгейта:  $Farengeit');
+// }
+
+//задача 5
+
+// import 'dart:io';
+// void main() {
+  
+// print("Введите сумму для конвертации: ");
+//   double sum= double.parse(stdin.readLineSync()!);
+
+
+//   print("Введите название валюты: "); 
+//   String money = stdin.readLineSync()!;
+
+  
+// print("Введите стоимость валюты: ");
+//   double rate = double.parse(stdin.readLineSync()!);
+
+  
+//   double converted = sum /rate;
+
+ 
+//   print(" $sum $money равна $converted USD");
+// }
+
+
